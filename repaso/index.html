@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="bloque1">
+    <div id="bloqueuno" class="bloque1">
 
         <div class="superior">
-            <p><a href="#">Inicio</a></p>
-            <p><a href="#">¿Qué es?</a></p>
+            <p><a href="#bloqueuno">Inicio</a></p>
+            <p><a href="#bloquedos">¿Qué es?</a></p>
             <p><img src="img/gobiernodecolombia.png"></p>
-            <p><a href="#">Entrega</a></p>
-            <p><a href="#" class="consultar">consultar</a></p>
+            <p><a href="#bloquetres">Entrega</a></p>
+            <p><a href="#bloqueuno" class="consultar">consultar</a></p>
         </div>
 
         <div class="fondo"></div>
@@ -45,17 +45,17 @@
                 <label for="phone">Telefono Movil</label><br>
                 <input type="number">
                 <br>
-                <a href="">Consultar</a>
+                <a href="#">Consultar</a>
             </div>
         </div> 
         <div class="contenido">
             <h2>Ingreso Solidario</h2>
             <p>Debido a la situación generada por el COVID-19, <br> el gobierno nacional aportará a las familias más afectadas <br> y que no pertenezcan a ningún programa social, <br> un subsidio por $160.000
             </p>
-            <a href="#" class="boton">Conocer más</a>
+            <a href="#bloquetres" class="boton">Conocer más</a>
         </div>
     </div>
-    <div class="bloque2">
+    <div id="bloquedos" class="bloque2">
         <div class="text1">
             <h2>¿Qué es el Ingreso Solidario?</h2>
         </div>
@@ -64,15 +64,15 @@
             <p> Loa hogares en condición de pobreza <br> y vulnerabilidad, afectados en sus <br> ingresos como consecuencia de la pandemia de coronavirus, <br> que no hagan parte de los programas sociales <br> "Familias en Acción", "Colombia Mayor", <br> "Jóvenes en Acción" y "Devoluvión del IVA" <br> podrán acceder a esta medida social. </p>
         </div>
         <div class="text3">
-            <a href="#">Conocer las etapas de las entrega</a>
+            <a href="#entregas">Conocer las etapas de las entrega</a>
             <img src="img/icono_bajando.png">
         </div>
         <div class="globo">
             <img src="img/globo_flotante.png" >
         </div>
     </div>
-    <div class="bloque3">
-        <div class="titulo">
+    <div id="bloquetres" class="bloque3">
+        <div id="entregas" class="titulo">
             <h2>Etapas de Entrega</h2>
         </div>
         <div class="etapa1">
@@ -96,8 +96,39 @@
             <img class="davi" src="img/daviplata.png">
         </div>
         <div class="text4">
-            <a href="#">Preguntas Frecuentes</a>
+            <a href="#bloquecuatro">Preguntas Frecuentes</a>
             <img src="img/icono_bajando.png" >
+        </div>
+    </div>
+    <div id="bloquecuatro" class="bloque4">
+        <h1>Preguntas Frecuentes</h1>
+        <img src="" alt="uno">
+        <h2>Yo había salido como beneficiaria en la primera fase y ahora no aparezco <br> en el listado de beneficiarios ¿Es decir, ya no recibiré el beneficio?</h2>
+        <p>Estamos actualizando el listado de beneficiarios que recibieron el giro. <br> Si encontró su nombre en la primera etapa t está plenamente <br> identificado, no ha perdido su beneficio.</p>
+        <img src="" alt="dos">
+        <h2>¿Por qué no aparezco ahora en el listado de ingresosolidario.prosperidadsocial.gov.co?</h2>
+        <p>Estamos actualizando el listado de beneficiarios que recibieron el giro. <br> Si encontró su nombre en la primera etapa t está plenamente <br> identificado, no ha perdido su beneficio.</p></p>
+        <a href="#bloquecinco">Ver más</a>
+        <img src="img/icono_bajando.png" alt="">
+    </div>
+    <div id="bloquecinco" class="bloque5">
+        <img src="" alt="tres">
+        <h2>Qué debo hacer porque me llegó el mensaje de que soy beneficiario y no he recibido el pago?</h2>
+        <p>Si usted fue informado de que es beneficirio del programa mediante un menssaje de texto <br> enviado por la entidad financiera en la cual tiene una cueta o depósito activo, <br> comuniquese con esa entidad financiera para averiguar cómo acceder a los recursos del Ingreso Solidario. <br> Si usted no tiene una cuenta o depósito con el sistema financiero, y es elegido <br> dentro del programa Ingreso Solidario, pronto recibirá un mensaje con <br> las instrucciones para hacer la apertura de una cuenta digital.</p>
+        <img src="" alt="cuatro">
+        <h2>Consulté en la página web y soy beneficiario, pero aún <br> no me han llamado ni he recibido mensaje de texto ¿Qué debo hacer?</h2>
+        <p>Si usted encontró su nombre y cédula en la base de beneficiarios y no ha recibido un mensaje de texto, significa que hace parte <br> de un ciclo posterior de pagos. Durante esta etapa, las entidades financieras se conectarán con usted <br> para darle las indicaciones de cómo recibir el giro o hacer la apertura de un depósito simplificado a través de su celular.</p>
+        <a href="#bloqueseis">Ver más</a>
+        <img src="img/icono_bajando.png" >
+    </div>
+    <div id="bloqueseis" class="bloque6">
+        <img src="" alt="seis">
+        <h2>¿Qué debemos hacer los que somos beneficiarios, pero no tenemos celular o cambiamos de número?</h2>
+        <p>Prosperidad Social está trabajando con diferentes organizaciones y <br> fuentes de datos para ubicarlo y contactarlo. <br> Lo invitamos a consultar periódicamente la página.</p>
+        <div class="azul">
+            <h1>¿Tienes más preguntas?</h1>
+            <p>Por favor no dudes en contactarnos para poderte dar la información que necesites</p>
+            <button>Contáctanos</button>
         </div>
     </div>
 </body>
