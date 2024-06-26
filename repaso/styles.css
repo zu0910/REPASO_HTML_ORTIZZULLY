@@ -16,7 +16,7 @@ body{
 .superior{
     margin: 0%;
     width: 100vw;
-    height: 15rem;
+    height: 14rem;
     background-color: #3266cc;
     display: flex;
     justify-content: space-evenly;
@@ -29,7 +29,7 @@ body{
     height: 14rem;
 }
 .superior a{
-    font-size: 2.12rem;
+    font-size: 2.54rem;
     text-decoration: none;
     color: white;
 }
@@ -63,14 +63,17 @@ body{
     font-size: 2.2rem;
     border-radius: 2rem;
     margin: 2rem 0;
+    margin-left: -24rem;
 }
 .formulario input{
     width: 50.5rem;
     height: 2.6rem;
+    font-size: 1.5rem;
 }
 #tipodocu{
     width: 50.9rem;
     height: 3rem;
+    font-size: 1rem;
 }
 .formulario a{
     text-decoration: none;
@@ -80,14 +83,28 @@ body{
     border-radius: 1rem;
     display: block;
     color: white;
-    border: none;
     margin-left: 23rem;
     margin-top: 2.6rem;
     align-content: center;
+    justify-content: center;
 }
 .formulario label{
     font-size: 1.5rem;
-    margin-left: -34.5rem;
+}
+.formulario label.tipo{
+    margin-left: -39rem;
+}
+.formulario label.document{
+    margin-left: -36.9rem;
+}
+.formulario label.nombres{
+    margin-left: -41.5rem;
+}
+.formulario label.fecha{
+    margin-left: -29.5rem;
+}
+.formulario label.tele{
+    margin-left: -42rem;
 }
 .formulario .texto{
     font-size: 3rem;
@@ -101,6 +118,8 @@ body{
 .contenido {
     text-align: center;
     width: 42rem;
+    margin-left: -50rem;
+    margin-top: 17rem;
 }
 .contenido h2{
     font-size: 3.5rem;
@@ -214,6 +233,17 @@ body{
     width: 100vw;
     text-align: center;
 }
+.bloque4 .circle{
+    background-color: #157FFB;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin-left: 82rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
 .bloque4 h1{
     font-family: "light";
     font-weight: 300;
@@ -240,6 +270,17 @@ body{
     width: 100vw;
     text-align: center;
 }
+.bloque5 .circle1{
+    background-color: #157FFB;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin-left: 82rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
 .bloque5 h1{
     font-family: "light";
     font-weight: 300;
@@ -265,6 +306,18 @@ body{
 .bloque6{
     width: 100vw;
     text-align: center;
+    margin-top: 2rem;
+}
+.bloque6 .circle2{
+    background-color: #157FFB;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin-left: 82rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
 }
 .bloque6 h2{
     font-family: "cursiva";
