@@ -10,142 +10,144 @@
     font-family: "cursiva";
     src: url(fuente/AmazonEmberCdRC_BdIt.ttf);
 }
+
 body{
     margin: 0%;
+}
+.principal{
+    overflow: hidden;
 }
 .superior{
     margin: 0%;
     width: 100vw;
-    height: 14rem;
+    height: 9vw;
     background-color: #3266cc;
     display: flex;
     justify-content: space-evenly;
     position: fixed;
     align-items: center;
-    font-family: "light";
 }
 .c{
     width: 100vw;
-    height: 14rem;
+    height: 9vw;
+}
+#gobiernos{
+    width: 20vw;
 }
 .superior a{
-    font-size: 2.54rem;
+    font-size: 2vw;
     text-decoration: none;
     color: white;
+    font-family: "light";
 }
 .superior a.consultar{
-    width: 15.5rem;
-    height: 3.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 3.68vw;
     background-color: white;
     color: black;
-    text-align: center;
-    border-radius: 20rem;
+    border-radius: 20vw;
     font-family: "light";
     font-weight: bold;
 }
 .fondo{
     background-image: url(img/Fondo.png);
-    background-size: 100%;
-    width: 100%;
+    background-size: 100vw;
+    width: 100vw;
+    height: 52vw;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 .bloque1{
     width: 100vw;
 }
 .formulario {
     background-color: white;
-    width: 59.5rem;
-    height: auto;
-    text-align: center;
-    font-size: 2.2rem;
-    border-radius: 2rem;
-    margin: 2rem 0;
-    margin-left: -24rem;
+    width: 33vw;
+    height: 43vw;
+    border-radius: 2vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
 }
 .formulario input{
-    width: 50.5rem;
-    height: 2.6rem;
-    font-size: 1.5rem;
+    width: 30vw;
+    height: 2vw;
+    font-size: 1.2vw;
+    margin-left: 1vw;
 }
 #tipodocu{
-    width: 50.9rem;
-    height: 3rem;
-    font-size: 1rem;
+    margin: auto;
+    width: 31vw;
+    height: 3vw;
+    font-size: 01vw;
+    margin-left: 1vw;
 }
 .formulario a{
     text-decoration: none;
-    width: 15.6rem;
-    height: 4rem;
+    width: 11vw;
+    height: 3vw;
     background-color: #157FFB;
-    border-radius: 1rem;
-    display: block;
+    border-radius: 1vw;
     color: white;
-    margin-left: 23rem;
-    margin-top: 2.6rem;
+    display: block;
     align-content: center;
-    justify-content: center;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 1.2vw;
 }
 .formulario label{
-    font-size: 1.5rem;
-}
-.formulario label.tipo{
-    margin-left: -39rem;
-}
-.formulario label.document{
-    margin-left: -36.9rem;
-}
-.formulario label.nombres{
-    margin-left: -41.5rem;
-}
-.formulario label.fecha{
-    margin-left: -29.5rem;
-}
-.formulario label.tele{
-    margin-left: -42rem;
+    font-size: 1vw;
+    margin: 0vw 1vw;
+    width: 20vw;
+    height: 5vw;
 }
 .formulario .texto{
-    font-size: 3rem;
+    font-size: 2vw;
     font-family: "regular";
+    text-align: center;
 }
 .formulario .texto1{
-    font-size: 1.3rem;
-    margin-top: -1rem;
+    text-align: center;
+    font-size: 1vw;
+    margin-top: -1vw;
     font-family: light;
 }
 .contenido {
     text-align: center;
-    width: 42rem;
-    margin-left: -50rem;
-    margin-top: 17rem;
+    width: 42vw;
+    margin-left: 10vw;
+    margin-top: 17vw;
 }
 .contenido h2{
-    font-size: 3.5rem;
-    font-family: "light";
-    font-weight: 300;
+    font-size: 3.5vw;
+    font-family: "regular";
+    font-weight: 100;
 }
 .contenido p{
-    font-size: 2rem;
+    font-size: 1.9vw;
     font-family: "light";
 }
 .boton {
     text-decoration: none;
-    display: block;
-    width: 15.6rem;
-    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14vw;
+    height: 3.5vw;
     background-color: #157FFB;
-    border-radius: 3rem;
+    border-radius: 3vw;
     color: white;
     border: none;
-    justify-content: center;
-    margin-left: 13rem;
-    font-size: 1.5rem;
-    text-align: center;
+    margin-left: 13vw;
+    font-size: 1.5vw;
 }
 .bloque2 {
     width: 100vw;
+}
+.icono_down{
+    width: 2vw;
 }
 .box{
     display: flex;
@@ -153,233 +155,222 @@ body{
     align-items: center;
 }
 .text1 {
-    margin-left: 60rem;
-    font-size: 4.2rem;
+    text-align: center;
+    font-size: 3.5vw;
     font-family: "regular";
     font-weight: 400;
 }
 .text2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2vw;
     font-family: "light";
-    width: 60rem;
+    width: 40vw;
 }
 .box a{
     text-decoration: none;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5vw;
 }
 .box img.globo{
-    width: 84rem;
-    padding-top: -4rem;
+    width: 25vw;
+    padding-bottom: 5vw;
+    flex-wrap:wrap ;
 }
 .bloque3 {
     width: 100vw;
-    font-size: 2rem;
-    font-family: "light";
 }
 .titulo {
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 4vw;
     font-family: "light";
-    font-weight: 500;
+    font-weight: 300;
 }
 .box2{
-    display: flex;
     justify-content: space-around;
     text-align: center;
+    display: flex;
+}
+.celu{
+    display: flex;
+    gap: 2vw;
+    margin-left: 6vw;
+    width: 10vw;
+    height: 6vw;
+}
+#movi{
+    margin-top: 1vw;
+    height: 3.5vw;
 }
 .box2 p{
     font-family: "light";
-    font-size: 3.5rem;
+    font-size: 2.5vw;
+    margin-top: 2%;
     font-weight: 400;
 }
 .box2 h2{
-    font-size: 3.6rem;
+    font-size: 2.5vw;
     font-family: "regular";
     font-weight: 450;
 }
 .box2 h3{
-    font-size: 3.5rem;
+    font-size: 3.2vw;
     font-family: "light";
     font-weight: 100;
 }
-.box3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
+#bancamia{
+    margin-top: 6vw;
+    width: 25vw;
 }
-.box3 img{
-    width: 35rem;
-    margin: 0 1rem;
-    object-fit: contain;
+#banco{
+    margin-top: -6vw;
+    width: 30vw;
 }
-.box4{
-    margin-left: 66rem;
-    width: 45rem;
+#social{
+    margin-top: 9vw;
+    width: 30vw;
 }
+
 .text4{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2vw;
 }
 .text4 a{
     text-decoration: none;
     color: black;
     font-family: "light";
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 200;
 }
 .bloque4{
     width: 100vw;
     text-align: center;
 }
-.bloque4 .circle{
+.circle{
     background-color: #157FFB;
-    width: 4rem;
-    height: 4rem;
+    width: 4vw;
+    height: 4vw;
     border-radius: 100%;
-    margin-left: 82rem;
-    justify-content: center;
-    text-align: center;
     color: white;
-    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
+
 .bloque4 h1{
     font-family: "light";
     font-weight: 300;
-    font-size: 4.5rem;
+    font-size: 4vw;
 }
 .bloque4 h2{
     font-family: "cursiva";
-    font-size: 3rem;
+    font-size: 2.3vw;
 }
 .bloque4 p{
     font-family: "light";
-    font-size: 2.5rem;
+    font-size: 2vw;
 }
 .bloque4 a{
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
     font-family: "light";
 }
 .bloque4 img{
-    padding-top: 2rem;
+    padding-top: 2vw;
 }
 .bloque5{
     width: 100vw;
     text-align: center;
 }
-.bloque5 .circle1{
-    background-color: #157FFB;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    margin-left: 82rem;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-}
-.bloque5 h1{
-    font-family: "light";
-    font-weight: 300;
-    font-size: 4.5rem;
-}
+
 .bloque5 h2{
     font-family: "cursiva";
-    font-size: 3rem;
+    font-size: 2.5vw;
 }
 .bloque5 p{
     font-family: "light";
-    font-size: 2.5rem;
+    font-size: 2vw;
 }
 .bloque5 a{
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
     font-family: "light";
 }
 .bloque5 img{
-    padding-top: 2rem;
+
 }
 .bloque6{
     width: 100vw;
     text-align: center;
-    margin-top: 2rem;
-}
-.bloque6 .circle2{
-    background-color: #157FFB;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    margin-left: 82rem;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    font-size: 2rem;
+    margin-top: 2vw;
 }
 .bloque6 h2{
     font-family: "cursiva";
-    font-size: 3rem;
+    font-size: 2.5vw;
 }
 .bloque6 p{
     font-family: "light";
-    font-size: 2.5rem;
+    font-size: 2vw;
 } 
 .bloque6 .azul{
-    width: 114rem;
-    height: 22rem;
+    width: 95vw;
+    height: 22vw;
     background-color: #157FFB;
-    margin-left: 28rem;
-    border-radius: 2rem;
+    border-radius: 2vw;
+    margin-left: 2vw;
     text-align: center;
     align-content: center;
     color: white;
 }
 .bloque6 .azul h1{
     font-family: "regular";
-    font-size: 3.5rem;
+    font-size: 3vw;
 }
 .bloque6 .azul p{
     font-family: "light";
     font-weight: 100;
 }
 .bloque6 .azul button{
-    width: 15rem;
-    height: 4rem;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    margin: 0 3rem;
+    width: 15vw;
+    height: 4vw;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    margin: 0 3vw;
     border: none;
+    background-color: white;
 }
 .bloque6 .inferior{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 170rem;
-    height: 15rem;
+    width: 100vw;
+    height: 14vw;
     background-color: #3266cc;
-    margin-top: 4rem;
+    margin-top: 4vw;
 }
 .bloque6 .inferior p{
     color: white;
+    font-size: 1vw;
     font-family: "light";
-    font-size: 1.6rem;
-    font-family: "light";
-    font-weight: 100;
+}
+.bloque6 img{
+    width: 20vw;
 }
 .logos{
     display: flex;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 82rem;
-    margin-top: -5rem;
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 48vw;
+    margin-top: -5vw;
 }
 .inferior .texto2 img{
-    width: 2rem;
+    width: 1vw;
 }
 .inferior .texto3 img{
-    width: 2rem;
+    width: 1vw;
+}
+@media only screen and (max-width:430){
+
 }
