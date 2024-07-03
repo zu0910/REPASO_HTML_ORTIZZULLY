@@ -66,21 +66,22 @@ body{
 .formulario {
     background-color: white;
     width: 33vw;
-    height: 43vw;
+    height: 46vw;
     border-radius: 2vw;
     margin-left: 5vw;
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 .formulario input{
-    width: 30vw;
+    width: 30.5vw;
     height: 2vw;
     font-size: 1.2vw;
     margin-left: 1vw;
+    margin-top: 1vw;
 }
 #tipodocu{
     margin: auto;
     width: 31vw;
-    height: 3vw;
+    height: 2.3vw;
     font-size: 01vw;
     margin-left: 1vw;
 }
@@ -96,12 +97,14 @@ body{
     text-align: center;
     margin-left: 10vw;
     margin-top: 1.2vw;
-}
-.formulario label{
     font-size: 1vw;
-    margin: 0vw 1vw;
+}
+label{
+    font-size: 1vw;
     width: 20vw;
-    height: 5vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
 }
 .formulario .texto{
     font-size: 2vw;
@@ -370,7 +373,4 @@ body{
 }
 .inferior .texto3 img{
     width: 1vw;
-}
-@media only screen and (max-width:430){
-
 }
