@@ -71,24 +71,53 @@ body{
 .formulario {
     background-color: white;
     width: 33vw;
-    height: 46vw;
+    height: 47.4vw;
     border-radius: 2vw;
     margin-left: 5vw;
     margin-top: 3vw;
 }
 /*Modificacion de los espacios a llenar en el formulario*/
-.formulario input{
-    width: 30.5vw;
-    height: 2vw;
+.docu{
+    position: absolute;
+    width: 29.5vw;
+    height: 0.8vw;
+    margin-left: -31vw;
+    margin-top: 6.7vw;
+}
+.name{
+    position: absolute;
+    z-index: 1;
+    width: 30vw;
+    height: 1vw;
+    margin-top: 12vw;
+    margin-left: -31vw;
+}
+.ape{
+    position: absolute;
+    width: 30vw;
+    height: 1vw;
+    margin-left: -31.5vw;
+    margin-top: 17vw;
+}
+.fecha{
+    position: absolute;
+    width: 30vw;
+    height: 1vw;
+    margin-top: 22vw;
+    margin-left: -31vw;
     font-size: 1.2vw;
-    margin-left: 1vw;
-    margin-top: 1vw;
+}
+.tele{
+    position: absolute;
+    width: 29.8vw;
+    height: 1vw;
+    margin-top: 27vw;
+    margin-left: -31vw;
 }
 #tipodocu{
-    margin: auto;
     width: 31vw;
-    height: 2.3vw;
-    font-size: 01vw;
+    height: 2vw;
+    font-size: 1vw;
     margin-left: 1vw;
 }
 /*Boton del formulario*/
@@ -103,17 +132,46 @@ body{
     align-content: center;
     text-align: center;
     margin-left: 10vw;
-    margin-top: 1.2vw;
+    margin-top: 26vw;
     font-size: 1vw;
 }
 /*Letra del formulario*/
-label{
-    font-size: 1vw;
-    width: 20vw;
-    height: 2vw;
+label.docu{
+    font-size: 1.2vw;
     margin-left: 1vw;
-    margin-top: 1vw;
+    margin-top: 0.1vw;
 }
+label.nume{
+    position: absolute;
+    font-size: 1.2vw;
+    margin-left: -30.9vw;
+    margin-top: 5vw;
+}
+label.pri{
+    position: absolute;
+    font-size: 1.2vw;
+    margin-top: 10vw;
+    margin-left: -30.7vw;
+}
+label.llido{
+    position: absolute;
+    margin-left: -30.7vw;
+    font-size: 1.2vw;
+    margin-top: 15vw;
+}
+label.expe{
+    position: absolute;
+    font-size: 1.2vw;
+    margin-left: -31vw;
+    margin-top: 20vw;
+}
+label.movi{
+    position: absolute;
+    font-size: 1.2vw;
+    margin-top: 25vw;
+    margin-left: -31vw;
+}
+
 /*Texto que va en la parte superior del formulario*/
 .formulario .texto{
     font-size: 2vw;
@@ -386,4 +444,9 @@ label{
 }
 .inferior .texto3 img{
     width: 1vw;
+}
+@media screen and (max-widht:430px){
+    .text2{
+        font-size: 120vw;
+    }
 }
