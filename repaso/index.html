@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Contenedor principal de toda la plataforma -->
     <div class="principal">
+        <!-- bloque 1 va hacer la primera pagina de la plataforma  -->
         <div id="bloqueuno" class="bloque1">
+            <!-- En el bloque superio es donde esta la barra azul de las opciones para dar la información de la plataforma donde tendra los hipervinculos e la imagen que el la del logotipo gobierno de colombia-->
             <div class="superior">
                 <a href="#bloqueuno">Inicio</a>
                 <a href="#bloquedos">¿Qué es?</a>
                 <img id="gobiernos" src="img/gobiernodecolombia.png">
                 <a href="#bloquetres">Entrega</a>
                 <a href="#bloqueuno" class="consultar">consultar</a>
-            </div>
-            <div class="c"></div>
-            <div class="fondo">
-                <div class="formulario">
+            </div> 
+            <div class="c"></div><!-- cree un div vacio para poder acomodar un espacio en blanco-->
+            <div class="fondo"><!-- contenedor para la imagen de fondo -->
+                <div class="formulario"><!-- div para toda la parte de formulario -->
+                    <!-- Los texto que estan en la parte superior del formulario -->
                     <p class="texto">Consulta tu estado del <br> Ingreso <br>Solidario</p>
                     <p class="texto1">Por favor ingresa tus datos personales para revisar el estado de entrega <br>de tu ingreso.</p>
+                    <!-- Es la parte donde el usuario tendra que llenar su informacion -->
                     <form>
                         <label class="label" for="tipo" >Tipo de Documento</label>
                         <select name="documentos" id="tipodocu">
@@ -43,15 +48,18 @@
                         <a href="#">Consultar</a>
                     </form>
                 </div> 
+                <!-- texto -->
                 <div class="contenido">
                     <h2>Ingreso Solidario</h2>
                     <p>Debido a la situación generada por el COVID-19,  el gobierno nacional aportará a las familias más afectadas  y que no pertenezcan a ningún programa social,  un subsidio por $160.000
                     </p>
-                    <a href="#bloquedos" class="boton">Conocer más</a>
+                    <a href="#bloquedos" class="boton">Conocer más</a> <!-- hipervincilo -->
                 </div>
             </div>
         </div>
+        <!-- bloque dos es la segunda parte del formato -->
         <div class="bloque2">
+            <!-- implementara texto y una imagen -->
             <h2 class="text1" id="bloquedos">¿Qué es el Ingreso Solidario?</h2>
             <div class="box">
                 <div class="text2">
@@ -63,8 +71,9 @@
                 </div>
                 <img class="globo" src="img/globo_flotante.png" >
         </div>
-    
+        <!-- Bloque tres es la tercera parte del formato -->
         <div id="bloquetres" class="bloque3">
+            <!-- tendra texto e imagenes -->
             <div id="entregas" class="titulo">
                 <p>Etapas de Entrega</p>
             </div>
@@ -96,6 +105,7 @@
                 <img class="icono_down" src="img/icono_bajando.png" >
             </div>
         </div>
+        <!-- El bloque cuatro, cinco y seis  va a tener solo texto -->
         <div id="bloquecuatro" class="bloque4">
             <h1>Preguntas Frecuentes</h1>
             <p class="circle">1</p>
@@ -129,6 +139,7 @@
                 <p>Por favor no dudes en contactarnos para poderte dar la información que necesites</p>
                 <button>Contáctanos</button>
             </div>
+            <!-- parte inferior del formato -->
             <div class="inferior">
                 <div class="texto2">
                     <img src="img/ubi.jpeg">
@@ -149,6 +160,5 @@
             </div>
         </div>
     </div>
-    
 </body>
 </html>

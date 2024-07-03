@@ -17,6 +17,7 @@ body{
 .principal{
     overflow: hidden;
 }
+/*Estilos de la parte superior del formato donde se modificara la posicion de los hipervinculos y el tamaño del logotipo tambien haciendo que la barra se quede estatica*/
 .superior{
     margin: 0%;
     width: 100vw;
@@ -34,12 +35,14 @@ body{
 #gobiernos{
     width: 20vw;
 }
+/*letra*/
 .superior a{
     font-size: 2vw;
     text-decoration: none;
     color: white;
     font-family: "light";
 }
+/*Boton de consultar*/
 .superior a.consultar{
     display: flex;
     justify-content: center;
@@ -52,6 +55,7 @@ body{
     font-family: "light";
     font-weight: bold;
 }
+/*Implementación del fondo de la primera pagina*/
 .fondo{
     background-image: url(img/Fondo.png);
     background-size: 100vw;
@@ -63,6 +67,7 @@ body{
 .bloque1{
     width: 100vw;
 }
+/*Cuadro donde va a estar todo el dormulario*/
 .formulario {
     background-color: white;
     width: 33vw;
@@ -71,6 +76,7 @@ body{
     margin-left: 5vw;
     margin-top: 3vw;
 }
+/*Modificacion de los espacios a llenar en el formulario*/
 .formulario input{
     width: 30.5vw;
     height: 2vw;
@@ -85,6 +91,7 @@ body{
     font-size: 01vw;
     margin-left: 1vw;
 }
+/*Boton del formulario*/
 .formulario a{
     text-decoration: none;
     width: 11vw;
@@ -99,6 +106,7 @@ body{
     margin-top: 1.2vw;
     font-size: 1vw;
 }
+/*Letra del formulario*/
 label{
     font-size: 1vw;
     width: 20vw;
@@ -106,6 +114,7 @@ label{
     margin-left: 1vw;
     margin-top: 1vw;
 }
+/*Texto que va en la parte superior del formulario*/
 .formulario .texto{
     font-size: 2vw;
     font-family: "regular";
@@ -117,6 +126,7 @@ label{
     margin-top: -1vw;
     font-family: light;
 }
+/*Modificacion del texto que va en la primera pag donde debe ir al lado derecho del formulario*/
 .contenido {
     text-align: center;
     width: 42vw;
@@ -132,6 +142,7 @@ label{
     font-size: 1.9vw;
     font-family: "light";
 }
+/*Boton que va con el texto del formulario*/
 .boton {
     text-decoration: none;
     display: flex;
@@ -149,6 +160,7 @@ label{
 .bloque2 {
     width: 100vw;
 }
+/*img del desplazamiento*/
 .icono_down{
     width: 2vw;
 }
@@ -182,6 +194,7 @@ label{
 .bloque3 {
     width: 100vw;
 }
+/*Modificion de los textos e imagenes que van en la parte de las etapas de pagos*/
 .titulo {
     text-align: center;
     font-size: 4vw;
@@ -248,6 +261,7 @@ label{
     width: 100vw;
     text-align: center;
 }
+/*En la parte de las preguntas frecuentes van unos circulos que son la cantidad de preguntas*/
 .circle{
     background-color: #157FFB;
     width: 4vw;
@@ -301,9 +315,6 @@ label{
     font-size: 1.8vw;
     font-family: "light";
 }
-.bloque5 img{
-
-}
 .bloque6{
     width: 100vw;
     text-align: center;
@@ -317,6 +328,7 @@ label{
     font-family: "light";
     font-size: 2vw;
 } 
+/*Cuadro azul del bloque seir */
 .bloque6 .azul{
     width: 95vw;
     height: 22vw;
@@ -344,6 +356,7 @@ label{
     border: none;
     background-color: white;
 }
+/*Modificacion de la parte inferior de la plataforma */
 .bloque6 .inferior{
     display: flex;
     justify-content: space-evenly;
