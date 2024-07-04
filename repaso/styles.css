@@ -27,6 +27,7 @@ body{
     justify-content: space-evenly;
     position: fixed;
     align-items: center;
+    z-index: 1;
 }
 .c{
     width: 100vw;
@@ -71,7 +72,7 @@ body{
 .formulario {
     background-color: white;
     width: 33vw;
-    height: 47.4vw;
+    height: 45vw;
     border-radius: 2vw;
     margin-left: 5vw;
     margin-top: 3vw;
@@ -79,46 +80,46 @@ body{
 /*Modificacion de los espacios a llenar en el formulario*/
 .docu{
     position: absolute;
-    width: 29.5vw;
-    height: 0.8vw;
+    width: 30.6vw;
+    height: 1.2vw;
     margin-left: -31vw;
-    margin-top: 6.7vw;
+    margin-top: 4.2vw;
 }
 .name{
     position: absolute;
-    z-index: 1;
-    width: 30vw;
-    height: 1vw;
-    margin-top: 12vw;
+    width: 30.5vw;
+    height: 1.3vw;
+    margin-top: 8vw;
     margin-left: -31vw;
 }
 .ape{
     position: absolute;
-    width: 30vw;
-    height: 1vw;
-    margin-left: -31.5vw;
-    margin-top: 17vw;
+    width: 30.5vw;
+    height: 1.3vw;
+    margin-left: -31vw;
+    margin-top: 12vw;
 }
 .fecha{
     position: absolute;
-    width: 30vw;
-    height: 1vw;
-    margin-top: 22vw;
+    width: 30.5vw;
+    height: 1.8vw;
+    margin-top: 16vw;
     margin-left: -31vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 .tele{
     position: absolute;
-    width: 29.8vw;
-    height: 1vw;
-    margin-top: 27vw;
+    width: 30.4vw;
+    height: 1.4vw;
+    margin-top: 20.5vw;
     margin-left: -31vw;
 }
 #tipodocu{
     width: 31vw;
-    height: 2vw;
+    height: 1.5vw;
     font-size: 1vw;
     margin-left: 1vw;
+    margin-top: 0.5vw;
 }
 /*Boton del formulario*/
 .formulario a{
@@ -132,43 +133,42 @@ body{
     align-content: center;
     text-align: center;
     margin-left: 10vw;
-    margin-top: 26vw;
+    margin-top: 22vw;
     font-size: 1vw;
 }
 /*Letra del formulario*/
-label.docu{
+label.docus{
     font-size: 1.2vw;
     margin-left: 1vw;
-    margin-top: 0.1vw;
 }
 label.nume{
     position: absolute;
     font-size: 1.2vw;
     margin-left: -30.9vw;
-    margin-top: 5vw;
+    margin-top: 2.5vw;
 }
 label.pri{
     position: absolute;
     font-size: 1.2vw;
-    margin-top: 10vw;
+    margin-top: 6vw;
     margin-left: -30.7vw;
 }
 label.llido{
     position: absolute;
     margin-left: -30.7vw;
     font-size: 1.2vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
 }
 label.expe{
     position: absolute;
     font-size: 1.2vw;
     margin-left: -31vw;
-    margin-top: 20vw;
+    margin-top: 14vw;
 }
 label.movi{
     position: absolute;
     font-size: 1.2vw;
-    margin-top: 25vw;
+    margin-top: 18.5vw;
     margin-left: -31vw;
 }
 
@@ -445,8 +445,102 @@ label.movi{
 .inferior .texto3 img{
     width: 1vw;
 }
-@media screen and (max-widht:430px){
-    .text2{
-        font-size: 120vw;
+@media only screen and (max-width:430px){
+    /*Cuadro donde va a estar todo el dormulario*/
+    .formulario {
+        background-color: white;
+        width: 33vw;
+        height: 46.5vw;
+        border-radius: 2vw;
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #tipodocu{
+        width: 31.1vw;
+        height: 2.1vw;
+        font-size: 1vw;
+        margin-left: 1vw;
+        margin-top: 0.5vw;
+    }
+    label.docus{
+        position: absolute;
+        margin-left: 1vw;
+        margin-top: 0.1vw;
+    }
+    label.nume{
+        position: absolute;
+        font-size: 1.2vw;
+        margin-left: -30.9vw;
+        margin-top: 4.5vw;
+    }
+    .docu{
+        width: 29.5vw;
+        height: 1.3vw;
+        margin-left: -31vw;
+        margin-top: 6vw;
+    }
+    label.pri{
+        font-size: 1.2vw;
+        margin-top: 9vw;
+        margin-left: -30.7vw;
+    }
+    .name{
+        position: absolute;
+        width: 29.5vw;
+        height: 1vw;
+        margin-top: 10.5vw;
+        margin-left: -31vw;
+    }
+    label.llido{
+        margin-left: -30.7vw;
+        font-size: 1.2vw;
+        margin-top: 13vw;
+    }
+    .ape{
+        position: absolute;
+        width: 29.1vw;
+        height: 1.12vw;
+        margin-left: -31vw;
+        margin-top: 15vw;
+    }
+    label.expe{
+        font-size: 1.2vw;
+        margin-left: -31vw;
+        margin-top: 17.8vw;
+    }
+    .fecha{
+        position: absolute;
+        width: 29.9vw;
+        height: 1.8vw;
+        margin-top: 19.5vw;
+        margin-left: -31vw;
+        font-size: 1.2vw;
+    }
+    label.movi{
+        font-size: 1.3vw;
+        margin-top: 22.9vw;
+        margin-left: -31vw;
+    }
+    .tele{
+        position: absolute;
+        width: 29vw;
+        height: 1vw;
+        margin-top: 25vw;
+        margin-left: -31vw;
+    }
+    /*Boton del formulario*/
+    .formulario a{
+        text-decoration: none;
+        width: 11vw;
+        height: 3vw;
+        background-color: #157FFB;
+        border-radius: 1vw;
+        color: white;
+        display: block;
+        align-content: center;
+        text-align: center;
+        margin-left: 10vw;
+        margin-top: 24.5vw;
+        font-size: 1vw;
     }
 }
