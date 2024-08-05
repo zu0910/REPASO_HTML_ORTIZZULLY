@@ -8,8 +8,11 @@ Esto es un proyecto  de desarrollo de un Aplicativo Web donde puede mostrar el p
 La pagina web contiene tres partes fundamentales:
 
 1. **Consulta**: Contas de un formulario donde las personas deberan ingresar todos sus datos personales para consultar el estado del ingreso solidario y tendra una breve información sobre el ingreso solidario.
+
 2. **¿Qué es?**: Da una breve explicación sobre de que es y de que trata el Ingreso Solidario.
+
 3. **Entrega**: Se mostrara las tres etapas de entregas que existen en el programa con los bancos autorizados de cada una.
+
 4. **Preguntas Frecuentes**: Se respondera aquellas preguntas que las personas suelen realizar con mucha frecuencia dejandoles la información mas clara y concisa de cada duda que presente los ciudadanos.
 
 *La pagina incluye una barra superior donde tendra las opciones disponibles para crear el desplazamiento de ella donde en en centro de la página estara el logotipo de Gobierno de Colombia*.
